@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.detailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.title {
+  color: #12022f;
+  font-size: 25px;
+  font-weight: bold;
+}
+.description {
+  color: #9aa5b1;
+  font-size: 20px;
+}
+.date {
+  color: #616e7c;
+  font-size: 20px;
+  text-align: start;
+}
+.hr {
+  color: #9aa5b1;
+  border-style: solid;
+  width: 100%;
+  border-width: 0.5px;
+}
